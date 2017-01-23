@@ -49,13 +49,13 @@ h3 {
 @media only screen and (max-width: 480px) {
 
     h1 {
-        font-size: 40px;
+        font-size: 32px;
     }
     h2 {
-        font-size: 40px;
+        font-size: 32px;
     }
     h3 {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
@@ -74,6 +74,7 @@ h3 {
 @media only screen and (max-width: 480px) {
 
     .btn-lg {
+        padding: 10px;
         font-size: 18px;
     }
 }
@@ -163,6 +164,12 @@ body > .twitter-share-button {
 }
 .intro img {
     margin-bottom: 15px;
+}
+@media only screen and (max-width: 480px) {
+
+    .intro img {
+        max-width: 150px;
+    }
 }
 .intro .bubbles {
     margin-top: 30px;
@@ -283,7 +290,7 @@ body > .twitter-share-button {
     text-align: center;
     line-height: 1;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
     .start .how > div .stamp {
         top: -45px;
