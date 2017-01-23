@@ -1,0 +1,318 @@
+/* Resets */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #25aae1;
+}
+a:hover {
+    text-decoration: none;
+    color: rgba(73, 39, 106, 0.9);
+}
+p a {
+    text-decoration: underline;
+}
+
+a img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+@media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+}
+
+.btn-primary {
+    border-radius: 0;
+    border: 0;
+    background-color: #49276a;
+}
+.btn-primary:hover {
+    background-color: rgba(73, 39, 106, 0.9);
+}
+.btn-lg {
+    padding: 10px 15px;
+    font-size: 24px;
+}
+@media only screen and (max-width: 480px) {
+
+    .btn-lg {
+        font-size: 18px;
+    }
+}
+
+/* Typed */
+
+.typed-cursor {
+    display: none;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* Page */
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+    color: #222;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+
+    body {
+        font-size: 24px;
+    }
+}
+
+body > .fb-like {
+    z-index: 2;
+    position: fixed !important;
+    top: 15px;
+    right: 15px;
+}
+body > .twitter-share-button {
+    z-index: 2;
+    position: fixed !important;
+    top: 55px;
+    right: 15px;
+}
+@media only screen and (max-width: 480px) {
+
+    body > .fb-like, body > .twitter-share-button {
+        display: none;
+    }
+}
+
+.intro {
+    overflow: hidden;
+}
+.intro #particles-js {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 845px;
+}
+.intro .container {
+    z-index: 2;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 480px) {
+
+    .intro .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+.intro img {
+    margin-bottom: 15px;
+}
+.intro .bubbles {
+    margin-top: 30px;
+}
+.intro .bubbles .you {
+    position: relative;
+    right: -2000px;
+    margin: 15px 10% 0 30%;
+    padding: 15px 20px;
+    text-align: right;
+    background-color: #49276A;
+    color: #fff;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 480px) {
+
+    .intro .bubbles .you {
+        margin: 15px 0% 0 30%;
+    }
+}
+.intro .bubbles .me {
+    position: relative;
+    left: -2000px;
+    margin: 15px 30% 0 10%;
+    padding: 15px 20px;
+    text-align: left;
+    background-color: #25aae1;
+    color: #fff;
+    border-radius: 12px;
+}
+@media only screen and (max-width: 480px) {
+
+    .intro .bubbles .me {
+        margin: 15px 30% 0 0%;
+    }
+}
+
+.what {
+    padding: 120px 0;
+    background: url('population.jpg') center center no-repeat;
+    color: #fff
+}
+@media only screen and (max-width: 480px) {
+
+    .what {
+        padding: 60px 0;
+    }
+}
+.what h2 {
+    margin-bottom: 30px;
+}
+.what ul {
+    margin-top: 90px;
+}
+@media only screen and (max-width: 480px) {
+
+    .what ul {
+        margin-top: 45px;
+    }
+}
+.what ul li {
+}
+.what ul li .fa {
+    margin-bottom: 15px;
+    font-size: 80px;
+}
+@media only screen and (max-width: 480px) {
+
+    .what ul li .fa {
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+
+    .what ul li h3 {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+}
+
+.start {
+    padding: 120px 0;
+}
+@media only screen and (max-width: 480px) {
+
+    .start {
+        padding: 60px 0;
+
+    }
+}
+.start h2 {
+    margin-bottom: 30px;
+}
+.start .how:first-child {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.start .how > div {
+    position: relative;
+    padding: 30px;
+    border: 3px solid #f1f1f1;
+    border-radius: 5px;
+}
+.start .how > div .stamp {
+    position: absolute;
+    top: -60px;
+    right: 70px;
+    color: #fff;
+}
+.start .how > div .stamp i {
+    position: absolute;
+    font-size: 150px;
+    color: #f1c40f;
+}
+.start .how > div .stamp span {
+    position: absolute;
+    padding-top: 45px;
+    width: 130px;
+    text-align: center;
+    line-height: 1;
+}
+@media only screen and (max-width: 480px) {
+
+    .start .how > div .stamp {
+        top: -45px;
+        right: 80px;
+    }
+
+    .start .how > div .stamp i {
+        font-size: 90px;
+    }
+
+    .start .how > div .stamp span {
+        padding-top: 28px;
+        width: 80px;
+        font-size: 14px;
+    }
+}
+.start .how > div h3 {
+    color: #49276a;
+}
+.start .how > div p {
+    margin: 30px 0;
+}
+
+article > footer {
+    padding-bottom: 120px;
+}
+@media only screen and (max-width: 480px) {
+
+    article > footer {
+        padding-bottom: 60px;
+    }
+}
