@@ -1,21 +1,4 @@
-/* Resets */
-
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup,
-menu, footer, header, nav, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-article, aside, canvas, figure, figure img, figcaption, hgroup,
-footer, header, nav, section, audio, video {
-    display: block;
-}
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 a {
     text-decoration: none;
@@ -108,7 +91,7 @@ h3 {
 body {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     -webkit-text-size-adjust: 100%;
     color: #222;
     text-align: center;
@@ -239,7 +222,10 @@ body > .twitter-share-button {
 }
 .what ul li .fa {
     margin-bottom: 15px;
-    font-size: 80px;
+    font-size: 70px;
+}
+.what ul li h3 {
+    font-size: 24px;
 }
 @media only screen and (max-width: 768px) {
 
